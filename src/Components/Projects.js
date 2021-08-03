@@ -45,7 +45,7 @@ const Projects = () => {
 
         <Box d="flex" mt="2" alignItems="center">
           <Box as="span" ml="2" color={ isDark ? "gray.300" :"gray.600"} fontSize="sm">
-             Movie DB is a website for searching and finding movies and web-series. Dynamic search functionality helps in finding for movies/series which might not have been known otherwise. Provinding all research for binge watching. 
+             Movie DB is a website for searching and finding movies and web-series. Dynamic search functionality helps in finding for movies/series which might not have been known otherwise. Providing all research for binge watching. 
           </Box>
         </Box>
       </Box>
@@ -62,7 +62,7 @@ const Projects = () => {
 
         <Box d="flex" mt="2" alignItems="center">
           <Box as="span" ml="2" color={ isDark ? "gray.300" :"gray.600"} fontSize="sm">
-             An E-commerce Shoe for buying all your shoes. It is a single platform which offers shoes for all genders. Products provided are always quality measured. With facilities like quick checkout with minimal requirement for personal details.
+             An E-commerce Shoe for buying all your shoes. It is a single platform which offers shoes for all genders. Products provided are always quality measured. 
           </Box>
         </Box>
       </Box>
