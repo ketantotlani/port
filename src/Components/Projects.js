@@ -50,7 +50,7 @@ const Projects = () => {
         </Box>
       </Box>
     </Box>
-    <Box cursor="pointer" onClick={() => window.open("/")} maxW="lg"  borderWidth="0px" borderRadius="sm" overflow="hidden" >
+    <Box cursor="pointer" onClick={() => window.open("https://allbirdz.netlify.app/")} maxW="lg"  borderWidth="0px" borderRadius="sm" overflow="hidden" >
       <Image p="2" src={Allbirds} width="100%" alt="none" />
 
       <Box p="3">
