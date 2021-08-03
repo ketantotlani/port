@@ -10,7 +10,7 @@ const About = () => {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
 
     return (
-        <Stack  padding="5">
+        <Stack id="about"  padding="5">
           <Heading  bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text" alignSelf="center" size="3xl"  fontWeight="semibold"  >Skills</Heading>
 
          <Flex alignItems="center" direction={isNotSmallerScreen ? "row" : "column"} spacing="200px" p={isNotSmallerScreen ? "32" : "0"}  alignSelf="center" >
