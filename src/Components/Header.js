@@ -14,7 +14,7 @@ export default function Header() {
                 <Box marginBottom="20" mt={isNotSmallerScreen ? "6" : 16 } align="flex-start">
                     <Text fontSize="5xl" fontWeight="semibold">Hi, I am</Text>
                     <Text fontSize="7xl" fontWeight="bold" mt="-2" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">Ketan Totlani</Text>
-                    <Text color={isDark ? "gray.200" : "gray.500"}>{"{Front End Developer}"}</Text>
+                    <Text color={isDark ? "gray.200" : "gray.500"}>{"{Software Engineer}"}</Text>
                     <Button mt={8} colorScheme="blue" onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })} >Know More</Button>
                 </Box>
                 <Image zIndex="1" alignSelf="center" ml={isNotSmallerScreen ? "12" : "0"} mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"} borderRadius="full" backgroundColor="transparent" boxShadow="lg" boxSize="300px" src="https://avatars.githubusercontent.com/u/43614859?v=4" />

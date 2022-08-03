@@ -1,6 +1,6 @@
 import React from 'react'
 import {  Heading,  Flex,  Stack, Text, useMediaQuery } from '@chakra-ui/react'
-import {FaReact, FaHtml5, FaCss3Alt, FaJs, FaBootstrap,  FaGitAlt, FaNpm, }  from 'react-icons/fa'
+import {FaReact, FaHtml5, FaCss3Alt, FaJs, FaBootstrap,  FaGitAlt, FaNpm, FaNode, FaAws }  from 'react-icons/fa'
 import {SiRedux}  from 'react-icons/si'
 
 
@@ -37,6 +37,14 @@ const About = () => {
 
                 <Text fontSize="22px" marginRight={isNotSmallerScreen ? "16" : "0"} marginBottom={isNotSmallerScreen ? "0" : "16"}>
                 <SiRedux fontSize="80px"/> Redux
+              </Text>
+              
+               <Text fontSize="22px" marginRight={isNotSmallerScreen ? "16" : "0"} marginBottom={isNotSmallerScreen ? "0" : "16"}>
+                <FaNode fontSize="80px"/> Node.Js
+              </Text>
+              
+               <Text fontSize="22px" marginRight={isNotSmallerScreen ? "16" : "0"} marginBottom={isNotSmallerScreen ? "0" : "16"}>
+                <FaAws fontSize="80px"/> AWS
               </Text>
 
               <Text fontSize="22px" marginRight={isNotSmallerScreen ? "16" : "0"} marginBottom={isNotSmallerScreen ? "0" : "16"}>
