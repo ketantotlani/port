@@ -12,13 +12,13 @@ const About = () => {
         <Stack id="about"  padding="5">
           <Heading  bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text" alignSelf="center" size="3xl"  fontWeight="semibold"  >Skills</Heading>
 
-         <Flex alignItems="center" direction={isNotSmallerScreen ? "row" : "column"} spacing="180px" p={isNotSmallerScreen ? "32" : "0"}  alignSelf="center" >
+         <Flex alignItems="center" direction={isNotSmallerScreen ? "row" : "column"} spacing="170px" p={isNotSmallerScreen ? "32" : "0"}  alignSelf="center" >
 
                <Text  fontSize="22px"  mt={isNotSmallerScreen ? "0" : "16"} ml={isNotSmallerScreen ? "10" : "0"} marginRight={isNotSmallerScreen ? "16" : "0"} marginBottom={isNotSmallerScreen ? "0" : "16"}> 
                <FaHtml5  fontSize="80px"/>HTML 5
                </Text>
 
-              <Text fontSize="22px"letterSpacing="wide" marginRight={isNotSmallerScreen ? "15" : "0"} marginBottom={isNotSmallerScreen ? "0" : "16"}> 
+              <Text fontSize="22px"letterSpacing="wide" marginRight={isNotSmallerScreen ? "16" : "0"} marginBottom={isNotSmallerScreen ? "0" : "16"}> 
                <FaCss3Alt  fontSize="80px"/>  CSS - 3
                </Text>
 
