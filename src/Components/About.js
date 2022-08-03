@@ -18,7 +18,7 @@ const About = () => {
                <FaHtml5  fontSize="80px"/>HTML 5
                </Text>
 
-              <Text fontSize="22px"letterSpacing="wide" marginRight={isNotSmallerScreen ? "16" : "0"} marginBottom={isNotSmallerScreen ? "0" : "16"}> 
+              <Text fontSize="22px" marginRight={isNotSmallerScreen ? "16" : "0"} marginBottom={isNotSmallerScreen ? "0" : "16"}> 
                <FaCss3Alt  fontSize="80px"/>  CSS - 3
                </Text>
 
