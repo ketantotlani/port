@@ -12,7 +12,7 @@ const About = () => {
         <Stack id="about"  padding="5">
           <Heading  bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text" alignSelf="center" size="3xl"  fontWeight="semibold"  >Skills</Heading>
 
-         <Flex alignItems="center" direction={isNotSmallerScreen ? "row" : "column"} spacing="150px" p={isNotSmallerScreen ? "32" : "0"}  alignSelf="center" >
+         <Flex alignItems="center" direction={isNotSmallerScreen ? "row" : "column"} spacing="150px" paddingInline={isNotSmallerScreen ? "25" : "0"} paddingBlock={isNotSmallerScreen ? "32" : "0"} alignSelf="center" >
 
                <Text  fontSize="22px"  mt={isNotSmallerScreen ? "0" : "16"} ml={isNotSmallerScreen ? "10" : "0"} marginRight={isNotSmallerScreen ? "16" : "0"} marginBottom={isNotSmallerScreen ? "0" : "16"}> 
                <FaHtml5  fontSize="80px"/>HTML 5
