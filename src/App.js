@@ -23,9 +23,9 @@ function App() {
         <Flex w="100%">
           {/* <Heading ml="8" size="md" fontWeight="semibold" color="white.400" >Ketan Totlani</Heading> */}
           <Spacer></Spacer>
-        <IconButton icon={<FaLinkedin/>} isRound="true" onClick={() => window.open("https://www.linkedin.com/in/itsketant/")}></IconButton>
-        <IconButton ml={2} icon={<FaTwitter/>} isRound="true" onClick={() => window.open("https://twitter.com/itsketant")}></IconButton>
-        <IconButton ml={2} icon={<FaGithub/>} isRound="true" onClick={() => window.open("https://github.com/itsketant")}></IconButton>
+        <IconButton icon={<FaLinkedin/>} isRound="true" onClick={() => window.open("https://www.linkedin.com/in/ketantotlani/")}></IconButton>
+        <IconButton ml={2} icon={<FaTwitter/>} isRound="true" onClick={() => window.open("https://twitter.com/ketantotlani_")}></IconButton>
+        <IconButton ml={2} icon={<FaGithub/>} isRound="true" onClick={() => window.open("https://github.com/ketantotlani")}></IconButton>
         <IconButton ml={8} icon={isDark ? <FaSun/> : <FaMoon/>} isRound="true" onClick={toggleColorMode}></IconButton>
         </Flex>
         <Header/>
