@@ -3,6 +3,7 @@ import { Box,  Heading, Flex, Image, Stack,  useColorMode, useMediaQuery } from 
 import Moviedb from '../Assets/Moviedb.png'
 import Newzer from '../Assets/Newzer.png'
 import Allbirds from '../Assets/allbirds.png'
+import ProjMgmt from '../Assets/projmgmt.png'
 
 
 const Projects = () => {
@@ -44,13 +45,30 @@ const Projects = () => {
         </Box>
 
         <Box d="flex" mt="2" alignItems="center">
-          <Box as="span" ml="2" color={ isDark ? "gray.300" :"gray.600"} fontSize="sm">
+          <Box as="span" ml="2" color={ isDark ? "gray.300" :"gray.600"} fontSize="sm" fontStyle="italic">
              Movie DB is a website for searching and finding movies and web-series. Dynamic search functionality helps in finding for movies/series which might not have been known otherwise. Providing all research for binge watching. 
           </Box>
         </Box>
       </Box>
     </Box>
-    <Box cursor="pointer" onClick={() => window.open("https://allbirdz.netlify.app/")} maxW="lg"  borderWidth="0px" borderRadius="sm" overflow="hidden" >
+    <Box cursor="pointer" onClick={() => window.open("https://project-mgmt-tool.vercel.app/")} maxW="lg"  borderWidth="0px" borderRadius="sm" overflow="hidden" >
+      <Image p="2" src={ProjMgmt} width="100%" alt="none" />
+
+      <Box p="3">
+        <Box d="flex" alignItems="baseline">
+          <Box fontWeight="semibold" letterSpacing="wide" fontSize="xl" fontStyle="italic" ml="2" >
+            Project Management Tool
+          </Box>
+        </Box>
+
+        <Box d="flex" mt="2" alignItems="center">
+          <Box as="span" ml="2" color={ isDark ? "gray.300" :"gray.600"} fontSize="sm" fontStyle="italic">
+             A Fullstack Project Management Tool Developed using JAVA/Spring-Boot & React. It is a platform made to manage any small/personal projects. Platform itself is based on Kanban Framework for agile software development.
+          </Box>
+        </Box>
+      </Box>
+    </Box>
+    <Box cursor="pointer" onClick={() => window.open("https://allbirdz.netlify.app/")} maxW="lg"  borderWidth="0px" borderRadius="sm" overflow="hidden" fontStyle="italic" >
       <Image p="2" src={Allbirds} width="100%" alt="none" />
 
       <Box p="3">
@@ -61,12 +79,13 @@ const Projects = () => {
         </Box>
 
         <Box d="flex" mt="2" alignItems="center">
-          <Box as="span" ml="2" color={ isDark ? "gray.300" :"gray.600"} fontSize="sm">
+          <Box as="span" ml="2" color={ isDark ? "gray.300" :"gray.600"} fontSize="sm" fontStyle="italic">
              An E-commerce Shoe for buying all your shoes. It is a single platform which offers shoes for all genders. Products provided are always quality measured. 
           </Box>
         </Box>
       </Box>
     </Box>
+    
         </Flex>
         <hr />
     </Stack>
